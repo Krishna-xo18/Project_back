@@ -11,7 +11,7 @@ import fileUpload from "express-fileupload";
 import { getAllFaculties } from "./controllers/userController.js";
 
 const app = express();
-config({ path: "./config/config.env" });
+config({ path: ".env" });
 
 app.use(
   cors({
